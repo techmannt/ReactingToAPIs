@@ -1,8 +1,8 @@
 import React from 'react';
 
-const DisplayCard = (props) => {
-  return (
-    <>
+const DisplayFilmCard = (props) => {
+  return (  // No fragment needed here since <div> is used.
+
       <div className="py-1" key={props.films.id}>
         <div className="card">
 
@@ -14,9 +14,9 @@ const DisplayCard = (props) => {
 
         </div>
       </div>
-    </>
+
   )
 
 }
 
-export default DisplayCard;
+export default DisplayFilmCard;
